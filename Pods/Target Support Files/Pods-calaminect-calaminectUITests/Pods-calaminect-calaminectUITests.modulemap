@@ -1,0 +1,6 @@
+framework module Pods_calaminect_calaminectUITests {
+  umbrella header "Pods-calaminect-calaminectUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

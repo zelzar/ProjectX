@@ -13,9 +13,11 @@
 		04A7CF1427FCCA6E0061C93E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7CF1227FCCA6E0061C93E /* Main.storyboard */; };
 		04A7CF1627FCCA6F0061C93E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A7CF1527FCCA6F0061C93E /* Assets.xcassets */; };
 		04A7CF1927FCCA6F0061C93E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A7CF1727FCCA6F0061C93E /* LaunchScreen.storyboard */; };
-		04A7CF2427FCCA6F0061C93E /* calaminectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7CF2327FCCA6F0061C93E /* calaminectTests.swift */; };
-		04A7CF2E27FCCA6F0061C93E /* calaminectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7CF2D27FCCA6F0061C93E /* calaminectUITests.swift */; };
-		04A7CF3027FCCA6F0061C93E /* calaminectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A7CF2F27FCCA6F0061C93E /* calaminectUITestsLaunchTests.swift */; };
+		219240E62AE4F3C8007E94FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 219240E52AE4F3C8007E94FF /* GoogleService-Info.plist */; };
+		219240E72AE4F3C8007E94FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 219240E52AE4F3C8007E94FF /* GoogleService-Info.plist */; };
+		219240E82AE4F3C8007E94FF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 219240E52AE4F3C8007E94FF /* GoogleService-Info.plist */; };
+		219DC5E0280DF88000EA7837 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 219DC5DF280DF88000EA7837 /* GoogleService-Info.plist */; };
+		B802452D462E076E82F283AF /* Pods_calaminect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 606F1E414BEDE974A1776D1F /* Pods_calaminect.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04227C1BB5F2F8DADFAF1FC9 /* Pods-calaminectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calaminectTests.debug.xcconfig"; path = "Target Support Files/Pods-calaminectTests/Pods-calaminectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		04A7CF0927FCCA6E0061C93E /* calaminect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calaminect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A7CF0C27FCCA6E0061C93E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A7CF0E27FCCA6E0061C93E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,10 +48,15 @@
 		04A7CF1827FCCA6F0061C93E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04A7CF1A27FCCA6F0061C93E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04A7CF1F27FCCA6F0061C93E /* calaminectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calaminectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A7CF2327FCCA6F0061C93E /* calaminectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calaminectTests.swift; sourceTree = "<group>"; };
 		04A7CF2927FCCA6F0061C93E /* calaminectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calaminectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		04A7CF2D27FCCA6F0061C93E /* calaminectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calaminectUITests.swift; sourceTree = "<group>"; };
-		04A7CF2F27FCCA6F0061C93E /* calaminectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calaminectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		219240E52AE4F3C8007E94FF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		219DC5DF280DF88000EA7837 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		606F1E414BEDE974A1776D1F /* Pods_calaminect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_calaminect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7413D3C76D7F02A0F73CD525 /* Pods-calaminect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calaminect.debug.xcconfig"; path = "Target Support Files/Pods-calaminect/Pods-calaminect.debug.xcconfig"; sourceTree = "<group>"; };
+		7A472CFBB6B45C88AE7B67B8 /* Pods-calaminectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calaminectTests.release.xcconfig"; path = "Target Support Files/Pods-calaminectTests/Pods-calaminectTests.release.xcconfig"; sourceTree = "<group>"; };
+		85646E36DC455BEF86362584 /* Pods-calaminect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calaminect.release.xcconfig"; path = "Target Support Files/Pods-calaminect/Pods-calaminect.release.xcconfig"; sourceTree = "<group>"; };
+		B1D68B20BA8253ABC712F2B6 /* Pods-calaminect-calaminectUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calaminect-calaminectUITests.debug.xcconfig"; path = "Target Support Files/Pods-calaminect-calaminectUITests/Pods-calaminect-calaminectUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB933FAB1F3148F9B5B9169F /* Pods-calaminect-calaminectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-calaminect-calaminectUITests.release.xcconfig"; path = "Target Support Files/Pods-calaminect-calaminectUITests/Pods-calaminect-calaminectUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B802452D462E076E82F283AF /* Pods_calaminect.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,9 +89,9 @@
 			isa = PBXGroup;
 			children = (
 				04A7CF0B27FCCA6E0061C93E /* calaminect */,
-				04A7CF2227FCCA6F0061C93E /* calaminectTests */,
-				04A7CF2C27FCCA6F0061C93E /* calaminectUITests */,
 				04A7CF0A27FCCA6E0061C93E /* Products */,
+				0A0B2B9DB8C5B16C3CAA565B /* Pods */,
+				AE42A02A179F4492DB1F614F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,32 +108,38 @@
 		04A7CF0B27FCCA6E0061C93E /* calaminect */ = {
 			isa = PBXGroup;
 			children = (
+				219DC5DF280DF88000EA7837 /* GoogleService-Info.plist */,
 				04A7CF0C27FCCA6E0061C93E /* AppDelegate.swift */,
 				04A7CF0E27FCCA6E0061C93E /* SceneDelegate.swift */,
 				04A7CF1027FCCA6E0061C93E /* ViewController.swift */,
 				04A7CF1227FCCA6E0061C93E /* Main.storyboard */,
 				04A7CF1527FCCA6F0061C93E /* Assets.xcassets */,
+				219240E52AE4F3C8007E94FF /* GoogleService-Info.plist */,
 				04A7CF1727FCCA6F0061C93E /* LaunchScreen.storyboard */,
 				04A7CF1A27FCCA6F0061C93E /* Info.plist */,
 			);
 			path = calaminect;
 			sourceTree = "<group>";
 		};
-		04A7CF2227FCCA6F0061C93E /* calaminectTests */ = {
+		0A0B2B9DB8C5B16C3CAA565B /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				04A7CF2327FCCA6F0061C93E /* calaminectTests.swift */,
+				7413D3C76D7F02A0F73CD525 /* Pods-calaminect.debug.xcconfig */,
+				85646E36DC455BEF86362584 /* Pods-calaminect.release.xcconfig */,
+				B1D68B20BA8253ABC712F2B6 /* Pods-calaminect-calaminectUITests.debug.xcconfig */,
+				FB933FAB1F3148F9B5B9169F /* Pods-calaminect-calaminectUITests.release.xcconfig */,
+				04227C1BB5F2F8DADFAF1FC9 /* Pods-calaminectTests.debug.xcconfig */,
+				7A472CFBB6B45C88AE7B67B8 /* Pods-calaminectTests.release.xcconfig */,
 			);
-			path = calaminectTests;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		04A7CF2C27FCCA6F0061C93E /* calaminectUITests */ = {
+		AE42A02A179F4492DB1F614F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04A7CF2D27FCCA6F0061C93E /* calaminectUITests.swift */,
-				04A7CF2F27FCCA6F0061C93E /* calaminectUITestsLaunchTests.swift */,
+				606F1E414BEDE974A1776D1F /* Pods_calaminect.framework */,
 			);
-			path = calaminectUITests;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,9 +149,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A7CF3327FCCA6F0061C93E /* Build configuration list for PBXNativeTarget "calaminect" */;
 			buildPhases = (
+				EA521B5849A5530DB2F814C4 /* [CP] Check Pods Manifest.lock */,
 				04A7CF0527FCCA6E0061C93E /* Sources */,
 				04A7CF0627FCCA6E0061C93E /* Frameworks */,
 				04A7CF0727FCCA6E0061C93E /* Resources */,
+				562165AAAA18A75FC56EBC07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A7CF3627FCCA6F0061C93E /* Build configuration list for PBXNativeTarget "calaminectTests" */;
 			buildPhases = (
+				D93351A938B98DDC32917E04 /* [CP] Check Pods Manifest.lock */,
 				04A7CF1B27FCCA6F0061C93E /* Sources */,
 				04A7CF1C27FCCA6F0061C93E /* Frameworks */,
 				04A7CF1D27FCCA6F0061C93E /* Resources */,
@@ -169,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A7CF3927FCCA6F0061C93E /* Build configuration list for PBXNativeTarget "calaminectUITests" */;
 			buildPhases = (
+				E6127E0A3FBAA1D00ACC06AB /* [CP] Check Pods Manifest.lock */,
 				04A7CF2527FCCA6F0061C93E /* Sources */,
 				04A7CF2627FCCA6F0061C93E /* Frameworks */,
 				04A7CF2727FCCA6F0061C93E /* Resources */,
+				73797639CE698E29900E223D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -230,6 +250,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				04A7CF1927FCCA6F0061C93E /* LaunchScreen.storyboard in Resources */,
+				219DC5E0280DF88000EA7837 /* GoogleService-Info.plist in Resources */,
+				219240E62AE4F3C8007E94FF /* GoogleService-Info.plist in Resources */,
 				04A7CF1627FCCA6F0061C93E /* Assets.xcassets in Resources */,
 				04A7CF1427FCCA6E0061C93E /* Main.storyboard in Resources */,
 			);
@@ -239,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219240E72AE4F3C8007E94FF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,10 +269,114 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				219240E82AE4F3C8007E94FF /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		562165AAAA18A75FC56EBC07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calaminect/Pods-calaminect-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calaminect/Pods-calaminect-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-calaminect/Pods-calaminect-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73797639CE698E29900E223D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calaminect-calaminectUITests/Pods-calaminect-calaminectUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-calaminect-calaminectUITests/Pods-calaminect-calaminectUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-calaminect-calaminectUITests/Pods-calaminect-calaminectUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D93351A938B98DDC32917E04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calaminectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6127E0A3FBAA1D00ACC06AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calaminect-calaminectUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA521B5849A5530DB2F814C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-calaminect-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04A7CF0527FCCA6E0061C93E /* Sources */ = {
@@ -266,7 +393,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A7CF2427FCCA6F0061C93E /* calaminectTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +400,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A7CF2E27FCCA6F0061C93E /* calaminectUITests.swift in Sources */,
-				04A7CF3027FCCA6F0061C93E /* calaminectUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,12 +556,13 @@
 		};
 		04A7CF3427FCCA6F0061C93E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7413D3C76D7F02A0F73CD525 /* Pods-calaminect.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = LN78H4X2QU;
+				DEVELOPMENT_TEAM = 9Z5T4FSNK6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = calaminect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -451,7 +576,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shreyazh.calaminect;
+				PRODUCT_BUNDLE_IDENTIFIER = shreyazh.calaminect11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -461,11 +586,13 @@
 		};
 		04A7CF3527FCCA6F0061C93E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85646E36DC455BEF86362584 /* Pods-calaminect.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9Z5T4FSNK6;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = calaminect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -479,7 +606,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = shreyazh.calaminect;
+				PRODUCT_BUNDLE_IDENTIFIER = shreyazh.calaminect11;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -489,6 +616,7 @@
 		};
 		04A7CF3727FCCA6F0061C93E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04227C1BB5F2F8DADFAF1FC9 /* Pods-calaminectTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
@@ -508,6 +636,7 @@
 		};
 		04A7CF3827FCCA6F0061C93E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A472CFBB6B45C88AE7B67B8 /* Pods-calaminectTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
@@ -527,6 +656,7 @@
 		};
 		04A7CF3A27FCCA6F0061C93E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D68B20BA8253ABC712F2B6 /* Pods-calaminect-calaminectUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +675,7 @@
 		};
 		04A7CF3B27FCCA6F0061C93E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB933FAB1F3148F9B5B9169F /* Pods-calaminect-calaminectUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_calaminect {
+  umbrella header "Pods-calaminect-umbrella.h"
+
+  export *
+  module * { export * }
+}
